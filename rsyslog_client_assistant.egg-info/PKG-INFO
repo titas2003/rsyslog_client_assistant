@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: rsyslog-client-assistant
-Version: 0.1.0
+Version: 0.1.4
 Summary: Generate client-side configuration for rsyslog
 Home-page: https://github.com/titas2003/rsyslog_client_assist.git
 Author: Titas Majumder
@@ -53,7 +53,7 @@ Description: # Rsyslog Configuration Generator
         ```
         
         ```python
-        apply = apply_ruleset_client(/var/log/message, message_log, local3, info, myRuleset)
+        apply = apply_ruleset_client("/var/log/message", "message_log", "local3", "info", "myRuleset")
         print(apply)
         ```
         
