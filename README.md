@@ -45,6 +45,6 @@ print(config)
 ```
 
 ```python
-apply = apply_ruleset_client(/var/log/message, message_log, local3, info, myRuleset)
+apply = apply_ruleset_client("/var/log/message", "message_log", "local3", "info", "myRuleset")
 print(apply)
 ```
