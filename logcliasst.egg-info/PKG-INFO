@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: logcliasst
+Version: 0.1.1
+Summary: Generate client-side configuration for rsyslog
+Home-page: https://github.com/titas2003/rsyslog_client_assist.git
+Author: Titas Majumder
+Author-email: titas20031996@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 # Rsyslog Configuration Generator
 
 This Python application generates client-side configuration for rsyslog using RainerScript. The configuration includes defining a ruleset and applying it to monitor log files.
@@ -78,3 +94,5 @@ This function generates an `rsyslog` configuration template.
 - `str`: The generated `rsyslog` configuration template as a string.
 #### Usage:
 #### `client_tls_template(cert_file, target_host, protocol, port, rule_name)`
+
+
